@@ -104,7 +104,9 @@ app.post("/validate", async (req, res) => {
     }
 });
 
-const PORT = process.env.PORT || 3000;
+// servidor
+
+const PORT = process.env.PORT || 10000;
 
 app.listen(PORT, () => {
     console.log("Fooster License Server running on port " + PORT);
